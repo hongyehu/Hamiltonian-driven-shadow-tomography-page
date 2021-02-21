@@ -5,7 +5,14 @@ While the complexity of exact tomography of the full density matrix scales expon
 
 ## Classical shadow tomography of quantum states
 <p align="center">
-  <img src="img/fig_projection.pdf" width="700">
+  <img src="img/fig_projection.png" width="300">
 </p>
 
 ## Hamiltonian-driven shadow tomography of quantum state
+<p align="center">
+  <img src="img/fig_protocol.png" width="300">
+</p>
+
+<p align="center">
+  <img src="img/fig_variance.png" width="300">
+</p>
