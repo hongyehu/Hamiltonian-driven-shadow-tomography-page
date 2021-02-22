@@ -29,12 +29,17 @@ Things can have different aspects. For example, a cake can have color and shape.
 
 You may think "Okay, if that is the case, I can ask for the shape and color sequentially, then I can get the full information!" Once again, you are tricked by the quantum magic. The following senario can happen: First, you ask for the color. The elf tells you it is red. Then you ask for the shape, and the elf tells you it's round. Before you leave, you want to check again for the answer. So you ask the elf what is the color once again. And the elf tells you it is **blue**! How could this happen? The elf are forbidden to lie! While this is the quantum magic, and it also has something to do with the superposition. I think this fairytale can give you some tastes of how weird the quantum world can be and how hard to fully understand what is inside the quantum black box.
 
-### Complexity
+### Why should we care about quantum state tomography?
+Even though the quantum world is weird, scientists can design experiments to fully unveal the quantum black box and understand the cat is being living and dead simultaneously in the quantum box. This procedure is called **Quantum state tomography** (QST). QST is very important. Scientifically, we would like to understand Nature prepared quantum systems. For example, quantum materials, such as superconductors, exhibit weird and beautiful behaviors. Once we understand those properties, we can utilize their properties to benefit the society. 
+
 <p align="center">
   <img src="img/string.png" width="500">
 </p>
 
-Even though the quantum world is weird, scientists can design experiments to fully unveal the quantum black box and understand the cat is being living and dead simultaneously in the quantum box. But this is hard, because 
+On the other hand, the scale that human can control and manipulate marks the level of our eigeneering ability. We would like to build and manipulate quantum information just like we build computer and manipulate classical information. In the era of classical computing, we store everything on string of bits, such as 0s and 1s, and we build classical machine to manipulate them, we code programs to do calculations, so that we can buy things online and saves us during the pandemic. If we can build quantum machine, such as quantum computer, it will operate on the string of quantum bits, like the second row of the cartoon. We want to read those quantum memories, so QST may help. If one day quantum machine can be build, and we can manipulate quantum information, that will be the new era.
+
+### Why should we care about quantum state tomography?
+
 While the complexity of exact tomography of the full density matrix scales exponentially with the system size due to the curse of dimensionality, approximate tomography with polynomial complexity has been developed with assumptions of the underlying quantum state, including _matrix product state tomography_, _reduced density matrix tomography_, and _machine learning tomography_ (If we want to learn more about ML-based tomography using information complete POVM measurements, I have created a [repo](https://github.com/hongyehu/Machine_Learning_Quantum_State_Tomography) using PyTorch).
 
 ## Classical shadow tomography of quantum states
