@@ -11,12 +11,14 @@ If you want to look into their private life, they will not yield! The weirdness 
  1. The qubits can live a superposition life (entanglement) 
  2. You cannot look at every aspect of their life (uncertainty principle)
 
-### Superposition
+### Things can live a superposition life 
 <p align="center">
   <img src="img/cat_state.png" width="600">
 </p>
 
 You may already heard there is a famous cat in physics history, called Schodinger's cat. This cat risks its life to demonstrate the quantum superposition. As you can see, the quantum bits, visualized as spin-up(1), and spin-down(0), can be in superposition. Loosely speaking, it can be simultaneously 0 and 1. If you think this is not weird, map spin-up(1) as a living cat, and spin-down(0) as a dead cat. Then, inside this quantum black box, the cat is living and dead at the same time. This is the actual quantum state of that cat, and that is what we want to see inside the black box!.
+
+However, as we discussed, the quantum cat has its **privacy**. Any measurement to a quantum system is destructive. If you want to look inside the quantum black box, you need as least flash some light, then photon will hit those delicate quantum objects and it changes the system from its original state. In other words, once you make some measurement to see the cat inside the box, it will be either living or dead. It will not reveal its original quantum state to you! In analog, you can think if we want to use laser to measure some quantities of a living cell, the laser will create stress for the cell, and what you see will deviate from the original state of the cell. It is just quantum systems are more delicate, and measurements are more destructive.
 
 ### Things cannot be simultaneously measured
 <p align="center">
