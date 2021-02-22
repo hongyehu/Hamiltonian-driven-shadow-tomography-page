@@ -81,6 +81,7 @@ In the previous section, we have seen the shadow tomography utilize random proje
 
 In our paper, we propose the possibility of using general chaotic Hamiltonian to evolve the system, and do projective measurements in computational basis, as the cartoon illustrated. In other words, those "light projection angles" are determined by random chaotic Hamiltonians. In our scheme, we think this may be more practical to implement in the NISQ machine. Also this gives us the information dynamics of the system, and allows us to investigate scrambling of quantum informations in the tomography.
 
+### Efficiency and scrambling beats
 <p align="center">
   <img src="img/fig_variance.png" width="650">
 </p>
