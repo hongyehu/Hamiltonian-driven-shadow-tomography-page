@@ -62,7 +62,7 @@ To understand the idea of classical shadow tomography, let's look at a classical
   <img src="img/quantum_art.png" width="350">
 </p>
 
-Shadow tomography of the quantum states utilize the same idea. Only this time, we have a quantum object, which is described by density matrix, in the room. And to have an efficient estimation of that quantum state, we can choose random angle to do projective measurements in experiments! In doing so, we can collect many classical shadows of the underlying quantum state. And we can store and post-process those classical shadows on classical computers. The above figure shows some classical shadows of a quantum state.
+Shadow tomography[1] of the quantum states utilize the same idea. Only this time, we have a quantum object, which is described by density matrix, in the room. And to have an efficient estimation of that quantum state, we can choose random angle to do projective measurements in experiments! In doing so, we can collect many classical shadows of the underlying quantum state. And we can store and post-process those classical shadows on classical computers. The above figure shows some classical shadows of a quantum state.
 
 <p align="center">
   <img src="img/example.png" width="650">
