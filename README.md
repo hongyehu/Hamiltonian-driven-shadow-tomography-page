@@ -3,7 +3,7 @@
 <p align="center">
   <img src="img/fig_tomography.png" width="500">
 </p>
-The above cartoon (&copy PhD Comics) nicely illustrated what I want to say.
+The above cartoon nicely illustrated what I want to say.
 
 <p align="center">
   <img src="img/cat_state.png" width="600">
@@ -15,6 +15,9 @@ While the complexity of exact tomography of the full density matrix scales expon
 <p align="center">
   <img src="img/fig_projection.png" width="280">
 </p>
+<p align="center">
+  <img src="img/example.png" width="600">
+</p>
 
 ## Hamiltonian-driven shadow tomography of quantum state
 <p align="center">
@@ -23,4 +26,15 @@ While the complexity of exact tomography of the full density matrix scales expon
 
 <p align="center">
   <img src="img/fig_variance.png" width="650">
+</p>
+
+<p align="center">
+  <img src="img/chemical_clock.png" width="300">
+</p>
+
+
+### Quantum art for you
+
+<p align="center">
+  <img src="img/quantum_art.png" width="300">
 </p>
