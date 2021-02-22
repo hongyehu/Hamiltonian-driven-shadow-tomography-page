@@ -70,11 +70,16 @@ Shadow tomography[1] of the quantum states utilize the same idea. Only this time
 
 Once we have the classical shadows, we can do some special linear combination of those classical shadows and unveal the underlying quantum state. For example, we showed after post-processing of classical shadows, we reconstruct the cat-state or GHZ state of the quantum system.
 
+One reason people like shadow tomography is this scheme reaches the maximal efficiency bound[2]! In fact, if the physical quantity we care about is rank-1, such as quantum fidelity, then shadow tomography needs a constant number of experiments to achieve the same accuracy, no matter how large the system is! How amazing is this!
+
 ## Hamiltonian-driven shadow tomography of quantum state
+In the previous section, we have seen the shadow tomography utilize random projection measurements to collect classical shadows of the quantum state, and the random projection is crucial. Because it grasp most information in an unbiased way. In experiments, one can implement global random Clifford gates to evolve the quantum state and do projection measurements on computational basis. Those two descriptions are equivalent. The global Clifford gate scrambles the information most efficiently so that computational basis measurements captures all the information. However, it may be hard to implement such a scheme practically. 
 
 <p align="center">
   <img src="img/fig_protocol.png" width="300">
 </p>
+
+In our paper, we propose the possibility of using general chaotic Hamiltonian to evolve the system, and do projective measurements in computational basis, as the cartoon illustrated. In other words, those "light projection angles" are determined by random chaotic Hamiltonians. In our scheme, we think this may be more practical to implement in the NISQ machine. Also this gives us the information dynamics of the system, and allows us to investigate scrambling of quantum informations in the tomography.
 
 <p align="center">
   <img src="img/fig_variance.png" width="650">
