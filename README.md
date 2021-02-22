@@ -11,26 +11,28 @@ If you want to look into their private life, they will not yield! The weirdness 
  1. The qubits can live a superposition life (entanglement) 
  2. You cannot look at every aspect of their life (uncertainty principle)
 
+### Superposition
 <p align="center">
   <img src="img/cat_state.png" width="600">
 </p>
 
-### Superposition
-
-
+You may already heard there is a famous cat in physics history, called Schodinger's cat. This cat risks its life to demonstrate the quantum superposition. As you can see 
 
 
 While the complexity of exact tomography of the full density matrix scales exponentially with the system size due to the curse of dimensionality, approximate tomography with polynomial complexity has been developed with assumptions of the underlying quantum state, including _matrix product state tomography_, _reduced density matrix tomography_, and _machine learning tomography_ (If we want to learn more about ML-based tomography using information complete POVM measurements, I have created a [repo](https://github.com/hongyehu/Machine_Learning_Quantum_State_Tomography) using PyTorch).
 
 ## Classical shadow tomography of quantum states
+
 <p align="center">
   <img src="img/fig_projection.png" width="250">
 </p>
+
 <p align="center">
   <img src="img/example.png" width="650">
 </p>
 
 ## Hamiltonian-driven shadow tomography of quantum state
+
 <p align="center">
   <img src="img/fig_protocol.png" width="300">
 </p>
