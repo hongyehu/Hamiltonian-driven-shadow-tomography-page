@@ -84,5 +84,10 @@ Once we have the classical shadows, we can do some special linear combination of
   <img src="img/chemical_clock.png" width="300">
 </p>
 
+### References
+[1]Scott Aaronson. arXiv:1711.01053. Shadow tomography of quantum states.
 
+[2]Hsin-Yuan Huang, Richard Kueng & John Preskill. Nature Physics volume 16, pages1050–1057(2020). _Predicting many properties of a quantum system from very few measurements_
+
+[3]Hong-Ye Hu, Yi-Zhuang You. _Hamiltonian-driven shadow tomography_.
 
