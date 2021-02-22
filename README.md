@@ -38,9 +38,14 @@ Even though the quantum world is weird, scientists can design experiments to ful
 
 On the other hand, the scale that human can control and manipulate marks the level of our eigeneering ability. We would like to build and manipulate quantum information just like we build computer and manipulate classical information. In the era of classical computing, we store everything on string of bits, such as 0s and 1s, and we build classical machine to manipulate them, we code programs to do calculations, so that we can buy things online and saves us during the pandemic. If we can build quantum machine, such as quantum computer, it will operate on the string of quantum bits, like the second row of the cartoon. We want to read those quantum memories, so QST may help. If one day quantum machine can be build, and we can manipulate quantum information, that will be the new era.
 
-### Why should we care about quantum state tomography?
+### How hard is quantum state tomography?
+In the previous, we have seen unveal the truth of a quantum system is non-trivial. In fact, it is really hard! Smart people proved that if we want to know every small aspects of a quantum system, aka full tomography, it is going to take exponentially many experiments as the system size grows. Loosely speaking, if we have two quantum bits, we need to do 4 experiments; 10 qbits need 1024 experiments; 100 qbits need 1267650600228229401496703205376 experiments! Compared to classical computer, 100 bits is nothing. 
 
-While the complexity of exact tomography of the full density matrix scales exponentially with the system size due to the curse of dimensionality, approximate tomography with polynomial complexity has been developed with assumptions of the underlying quantum state, including _matrix product state tomography_, _reduced density matrix tomography_, and _machine learning tomography_ (If we want to learn more about ML-based tomography using information complete POVM measurements, I have created a [repo](https://github.com/hongyehu/Machine_Learning_Quantum_State_Tomography) using PyTorch).
+But is it doomed? If you want to know every aspects of a quantum black box, which you know nothing beforehand, unfortunately the answer is yes. However, there is wiggle room:
+
+1. If we know some information about the quantum system, then we can make certain assumptions, and do approximate tomography with polynomial complexity. Along this way, there are _matrix product state tomography_, _reduced density matrix tomography_, and _machine learning tomography_ (If we want to learn more about ML-based tomography using information complete POVM measurements, I have created a [repo](https://github.com/hongyehu/Machine_Learning_Quantum_State_Tomography) using PyTorch).
+
+The first way is good. But it introduces bias, since our assumption may not be right. Recently, there is another beautiful tomography idea called "**Shadow tomography**", which is the main focus of our research paper and the main content in the following sections.
 
 ## Classical shadow tomography of quantum states
 
