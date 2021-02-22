@@ -47,6 +47,10 @@ But is it doomed? If you want to know every aspects of a quantum black box, whic
 
 The first way is good. But it introduces bias, since our assumption may not be right. Recently, there is another beautiful tomography idea called "**Shadow tomography**", which is the main focus of our research paper and the main content in the following sections.
 
+2. The key idea of shadow tomography is that: in many tasks, we perform tomography because we want to predict behaviors of the quantum system. And in order to accurately predict its behavior, sometimes we do not need to know every aspects of the quantum system.
+
+In the following, we will illustrate the idea of classical shadow tomography, and state our main results on **Hamiltonian-driven shadow tomography**.
+
 ## Classical shadow tomography of quantum states
 
 <p align="center">
