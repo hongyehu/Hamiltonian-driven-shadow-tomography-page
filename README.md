@@ -117,5 +117,5 @@ The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu 
 
 [2]Hsin-Yuan Huang, Richard Kueng & John Preskill. [Nature Physics volume 16, pages1050–1057(2020)](https://www.nature.com/articles/s41567-020-0932-7). _Predicting many properties of a quantum system from very few measurements_
 
-[3]Hong-Ye Hu, Yi-Zhuang You.[arXiv:2102.10132](https://arxiv.org/pdf/2102.10132.pdf) _Hamiltonian-driven shadow tomography of quantum states_.
+[3]Hong-Ye Hu, Yi-Zhuang You. [arXiv:2102.10132](https://arxiv.org/pdf/2102.10132.pdf). _Hamiltonian-driven shadow tomography of quantum states_.
 
