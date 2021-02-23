@@ -102,10 +102,12 @@ For **diagonal observables**, F_d(t) is of the order F_d(t)~ D^{-1}=2^{-N} at t=
 
 Interestingly, F_d(t) peaks to its maximal value periodically before it saturates to its long-time limit, as shown in the above figure(right). At these peaks, the diagonal information is maximally scrambled, therefore we name this phenomenon as **scrambling beats**. Under coherent Hamiltonian evolution, the scrambled information can partially bounce back in a finite-size system, leading to the beat behavior of F_d(t). This is really similar to the chemical "clock" phenomenon, here is a [video](https://www.youtube.com/watch?v=WpBwlSn1XPQ). But how long scrambling beats will last depends on the system size. The characteristic time for scrambling beats to die off is of the order t_d~ D^{1/6}=2^{N/6}. Before this time scale, there exist time windows between peaks, as yellow-shaded regions in the above figure, when the sample form factor maintains at a low level of F_d(t)~ D^{-1}.
 
-
 <p align="center">
   <img src="img/chemical_clock.png" width="300">
 </p>
+
+### Summary
+In summary, we propose to use Hamiltonian generated unitary evolution to scramble the quantum information for shadow tomography. We investigated the efficiency of the Hamiltonian-driven shadow tomography and showed that it can be superior to the shadow tomography based on 2-design random unitaries within an intermediate time window. Although our analysis is based on the GUE random Hamiltonian, we expect that the result could be generalized to other types of quantum chaotic Hamiltonians.
 
 ### Acknowledgement 
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
