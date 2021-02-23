@@ -108,6 +108,9 @@ Interestingly, F_d(t) peaks to its maximal value periodically before it saturate
 ### Summary
 In summary, we propose to use Hamiltonian generated unitary evolution to scramble the quantum information for shadow tomography. We investigated the efficiency of the Hamiltonian-driven shadow tomography and showed that it can be superior to the shadow tomography based on 2-design random unitaries within an intermediate time window. Although our analysis is based on the GUE random Hamiltonian, we expect that the result could be generalized to other types of quantum chaotic Hamiltonians.
 
+### Other resources
+If you like the idea of classical shadow tomography, I also encourage you to watch Hsin-Yuan Huang's talk at IQIM [link](https://www.youtube.com/watch?v=xRHXsPp1O0I&feature=youtu.be) and QIP2021 [link](https://www.youtube.com/watch?v=d1_hBEJQUSA&feature=share)
+
 ### Acknowledgement 
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
 
