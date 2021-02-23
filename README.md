@@ -79,16 +79,27 @@ In the previous section, we have seen the shadow tomography utilize random proje
   <img src="img/fig_protocol.png" width="300">
 </p>
 
-In our paper, we propose the possibility of using general chaotic Hamiltonian to evolve the system, and do projective measurements in computational basis, as the cartoon illustrated. In other words, those "light projection angles" are determined by random chaotic Hamiltonians. In our scheme, we think this may be more practical to implement in the NISQ machine. Also this gives us the information dynamics of the system, and allows us to investigate scrambling of quantum informations in the tomography.
+In our paper, we propose the possibility of using general chaotic Hamiltonian to evolve the system, and do projective measurements in computational basis, as the cartoon illustrated. In other words, those "light projection angles" are determined by random chaotic Hamiltonians. In our scheme, we think Hamiltonian-driven shadow tomography may be more practical to implement in the NISQ machine. Also this gives us the information dynamics of the system, and allows us to investigate scrambling of quantum informations in the tomography.
 
 ### Efficiency and scrambling beats
+In our paper[3], we theoretically calculated the reconstruction channel, which can reconstruct the underlying quantum state from classical shadows. And we also theoretically investigated the tomography efficiency of our scheme. There are two limits, that is easy to understand. 
+
+#### t -> 0 limit
+In this limit, the quantum state does not evolve at all, and we take the projective measurement on computational basis, i.e. the Pauli-Z basis. In this case, we can easily reconstruct the diagonal information of underlying density matrix, since experiments directly measure the diagonal part information. As a matter of fact, the tomography efficiency has a factor of D speed up compared to shadow tomography in [2]. But off-diagonal information is completely lost.
+#### t -> infinity limit
+In this limit, the chaotic Hamiltonian fully scrambled the underlying quantum state, and this will be equivalent to the random Clifford shadow tomography[2], which has the optimal efficiency.
+#### intermediate time window, and scrambling beats
 <p align="center">
   <img src="img/fig_variance.png" width="650">
 </p>
 
+In 
+
+
 <p align="center">
   <img src="img/chemical_clock.png" width="300">
 </p>
+### References
 
 ### References
 [1]Scott Aaronson. [arXiv:1711.01053](https://arxiv.org/abs/1711.01053). Shadow tomography of quantum states.
