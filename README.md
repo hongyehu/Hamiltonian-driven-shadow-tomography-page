@@ -110,6 +110,7 @@ In summary, we propose to use Hamiltonian generated unitary evolution to scrambl
 
 ### Acknowledgement 
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
+
 \* The author thanks Prof. Biao Wu from Peking University for suggestions.
 
 ### References
