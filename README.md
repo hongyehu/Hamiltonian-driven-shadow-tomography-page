@@ -42,11 +42,11 @@ In the previous, we have seen unveal the truth of a quantum system is non-trivia
 
 But is it doomed? If you want to know every aspects of a quantum black box, which you know nothing beforehand, unfortunately the answer is yes. However, there is wiggle room:
 
-1. If we know some information about the quantum system, then we can make certain assumptions, and do approximate tomography with polynomial complexity. Along this way, there are _matrix product state tomography_, _reduced density matrix tomography_, and _machine learning tomography_ (If we want to learn more about ML-based tomography using information complete POVM measurements, I have created a [repo](https://github.com/hongyehu/Machine_Learning_Quantum_State_Tomography) using PyTorch).
+ - First way: If we know some information about the quantum system, then we can make certain assumptions, and do approximate tomography with polynomial complexity. Along this way, there are _matrix product state tomography_, _reduced density matrix tomography_, and _machine learning tomography_ (If we want to learn more about ML-based tomography using information complete POVM measurements, I have created a [repo](https://github.com/hongyehu/Machine_Learning_Quantum_State_Tomography) using PyTorch).
 
 The first way is good. But it introduces bias, since our assumption may not be right. Recently, there is another beautiful tomography idea called "**Shadow tomography**", which is the main focus of our research paper and the main content in the following sections.
 
-2. The key idea of shadow tomography is that: in many tasks, we perform tomography because we want to predict behaviors of the quantum system. And in order to accurately predict its behavior, sometimes we do not need to know every aspects of the quantum system.
+ - Second way: The key idea of shadow tomography is that: in many tasks, we perform tomography because we want to predict behaviors of the quantum system. And in order to accurately predict its behavior, sometimes we do not need to know every aspects of the quantum system.
 
 In the following, we will illustrate the idea of classical shadow tomography, and state our main results on **Hamiltonian-driven shadow tomography**.
 
