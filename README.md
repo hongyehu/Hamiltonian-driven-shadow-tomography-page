@@ -89,17 +89,22 @@ In this limit, the quantum state does not evolve at all, and we take the project
 #### t -> infinity limit
 In this limit, the chaotic Hamiltonian fully scrambled the underlying quantum state, and this will be equivalent to the random Clifford shadow tomography[2], which has the optimal efficiency.
 #### intermediate time window, and scrambling beats
+
 <p align="center">
   <img src="img/fig_variance.png" width="650">
 </p>
 
-In 
+The intermediate time is when interesting phenomenon happen. In the above picture, it roughly shows the tomography efficiency ratio of our scheme compared to random Clifford scheme[2]. The left figure shows the tomography efficiency of off-diagonal observables, and the right figure shows the tomography efficiency of diagonal observables.
+
+For **off-diagonal observables**, it diverges as t approach zero, as it is impossible to infer the off-diagonal information from computational basis measurement in the absence of information scrambling. As time evolves, the off-diagonal information gets scrambled to the diagonal part, then F_o(t) decays with t as t^{-4}, as shown in the left figure. F_o(t) quickly approaches 1 after a characteristic time set by the inverse energy scale of the Hamiltonian H. Thus in the Hamiltonian-driven shadow tomography, one just needs to wait for the scrambling time to achieve effectively the same efficiency as random-unitary-based shadow tomography in terms of off-diagonal observable. Moreover, the scrambling time is independent of system size N.
 
 
 <p align="center">
   <img src="img/chemical_clock.png" width="300">
 </p>
-### References
+
+### Acknowledgement 
+The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
 
 ### References
 [1]Scott Aaronson. [arXiv:1711.01053](https://arxiv.org/abs/1711.01053). Shadow tomography of quantum states.
