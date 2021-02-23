@@ -18,8 +18,7 @@ If you want to look into their private life, they will not yield! The weirdness 
 
 You may already heard there is a famous cat in physics history, called Schodinger's cat. This cat risks its life to demonstrate the quantum superposition. As you can see, the quantum bits, visualized as spin-up(1), and spin-down(0), can be in superposition. Loosely speaking, it can be simultaneously 0 and 1. If you think this is not weird, map spin-up(1) as a living cat, and spin-down(0) as a dead cat. Then, inside this quantum black box, the cat is living and dead at the same time. This is the actual quantum state of that cat, and that is what we want to see inside the black box!.
 
-However, as we discussed, the quantum cat has its **privacy**. Any measurement to a quantum system is destructive. If you want to look inside the quantum black box, you need as least flash some light, then photon will hit those delicate quantum objects and it changes the system from its original state. In other words, once you make some measurement to see the cat inside the box, it will be either living or dead. It will not reveal its original quantum state to you! In analog, you can think if we want to use laser to measure some quantities of a living cell, the laser will create stress for the cell, and what you see will deviate from the original state of the cell. It is just quantum systems are more delicate, and measurements are more destructive.
-
+However, as we discussed, the quantum cat has its **privacy**. Any measurement to a quantum system is destructive. If you want to look inside the quantum black box, you need as least flash some light, then photon will hit those delicate quantum objects and it changes the system from its original state. That is one reason. And more fundamentally, the destructiveness of measurment is related to axioms of quantum mechanics and quantum system can be in superposition states*. In other words, once you make some measurements to see the cat inside the box, it will be either living or dead. It will not reveal its original quantum state to you! As an analogy (_maybe not a very good analogy, because living cells fundamentally cannot live a superposition life, unless it is entangled to a quantum system_), you can think if we want to use laser to measure some quantities of a living cell, the laser will create stress for the cell, and what you see will deviate from the original state of the cell. 
 ### Things cannot be simultaneously measured
 <p align="center">
   <img src="img/color_shape.png" width="300">
@@ -111,6 +110,7 @@ In summary, we propose to use Hamiltonian generated unitary evolution to scrambl
 
 ### Acknowledgement 
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
+* The author thanks Prof. Biao Wu from Peking University for suggestions.
 
 ### References
 [1]Scott Aaronson. [arXiv:1711.01053](https://arxiv.org/abs/1711.01053). Shadow tomography of quantum states.
