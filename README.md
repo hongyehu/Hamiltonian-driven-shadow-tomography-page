@@ -110,7 +110,7 @@ In summary, we propose to use Hamiltonian generated unitary evolution to scrambl
 
 ### Acknowledgement 
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
-* The author thanks Prof. Biao Wu from Peking University for suggestions.
+\* The author thanks Prof. Biao Wu from Peking University for suggestions.
 
 ### References
 [1]Scott Aaronson. [arXiv:1711.01053](https://arxiv.org/abs/1711.01053). Shadow tomography of quantum states.
