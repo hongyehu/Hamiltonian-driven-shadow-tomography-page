@@ -114,7 +114,7 @@ If you like the idea of classical shadow tomography, I also encourage you to wat
 ### Acknowledgement 
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
 
-\* The author thanks Prof. Biao Wu from Peking University for suggestions.
+\* The author thanks Prof. Biao Wu from Peking University for the insightful discussions and suggestions.
 
 ### References
 [1]Scott Aaronson. [arXiv:1711.01053](https://arxiv.org/abs/1711.01053). Shadow tomography of quantum states.
