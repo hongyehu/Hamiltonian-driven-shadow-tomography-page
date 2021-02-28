@@ -112,6 +112,8 @@ In summary, we propose to use Hamiltonian generated unitary evolution to scrambl
 If you like the idea of classical shadow tomography, I also encourage you to watch Hsin-Yuan Huang's talk at IQIM [link](https://www.youtube.com/watch?v=xRHXsPp1O0I&feature=youtu.be) and QIP2021 [link](https://www.youtube.com/watch?v=d1_hBEJQUSA&feature=share)
 
 ### Acknowledgement 
+The author thanks his mentor Prof. Yi-Zhuang You, and it has been a pleasure to work on this topic!
+
 The author thanks insightful discussions with Robert Hsin-Yuan Huang, and Junyu Liu.
 
 \* The author thanks Prof. Biao Wu from Peking University for the insightful discussions and suggestions.
